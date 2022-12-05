@@ -35,7 +35,10 @@ THIRD_PARTY_APPS = [
 
 ]
 USER_DEFINED_APPS = [
-    'apps.core'
+    'apps.core',
+    'apps.accounts',
+    'apps.business',
+    'apps.client'
 ]
 INSTALLED_APPS = BUILT_IN_APPS + THIRD_PARTY_APPS + USER_DEFINED_APPS
 
